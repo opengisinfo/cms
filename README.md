@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/@opengis/cms?style=plain)](https://www.npmjs.com/package/@opengis/cms)
 
-This package standardizes static website content management process. Built using the **Fastify** and **Vite** frameworks for reactive, component-driven development.
+Headless CMS for creating and managing the content of static websites
 
 ## Features
 
