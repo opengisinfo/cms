@@ -17,15 +17,16 @@ This package standardizes static website content management process. Built using
 
 For a detailed understanding of `cms`, its features, and how to use them, refer to our [Documentation](https://apidocs.softpro.ua/cms/).
 
+## Get started
 
-## Install
+### Install
 
 ```bash
 npm i @opengis/cms
 ```
 
 
-## Configuration
+### Configuration
 
 Configure `.env` file
 
@@ -34,7 +35,7 @@ node --env-file=.env.ip --env-file=.env server
 ```
 
 
-## Usage
+### Usage
 
 ```js
 import { getContents } from "@/utils/cms";
