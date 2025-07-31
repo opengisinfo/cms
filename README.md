@@ -15,7 +15,7 @@ Headless CMS for creating and managing the content of static websites
 
 ## Documentation
 
-For a detailed understanding of `cms`, its features, and how to use them, refer to our [Documentation](https://apidocs.softpro.ua/cms/).
+For a detailed understanding of `cms`, its features, and how to use them, refer to our [Documentation](https://cms.opengis.info/welcome-to-docs).
 
 ## Get started
 
