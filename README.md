@@ -12,21 +12,21 @@ Headless CMS for creating and managing the content of static websites
 - **Multi-user mode** - Work together with a team on content in real time.
 - **User Settings** - Includes functionality for managing user settings, creating user groups, and defining roles with interface permissions.
 
+## Resources and Documentation
 
-## Documentation
+- [https://cms.opengis.info](https://cms.opengis.info)
 
-For a detailed understanding of `cms`, its features, and how to use them, refer to our [Documentation](https://cms.opengis.info/welcome-to-docs).
 
-## Get started
+## Install and Usage
 
-### Install
+### 1. Install the package
 
 ```bash
 npm i @opengis/cms
 ```
 
 
-### Configuration
+### 2. Configure the environment
 
 Configure `.env` file
 
@@ -34,15 +34,18 @@ Configure `.env` file
 node --env-file=.env.ip --env-file=.env server
 ```
 
-
-### Usage
+### 3. Usage
 
 ```js
 import { getContents } from "@/utils/cms";
 
-// Get posts from API
+// Get content data from API
 let postsData = await getContents("posts");
 ```
+
+## Contributions
+
+We welcome contributions! Feel free to open issues, suggest features, or submit pull requests.
 
 ## License
 
